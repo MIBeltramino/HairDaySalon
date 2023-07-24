@@ -1,0 +1,158 @@
+/* Add Pseudo-classes for interactivity */
+/* Make custom scroll bar */
+
+/* Global Styles */
+*{
+    margin: 0;
+}
+
+html{
+    width: 100%;
+}
+
+h2{
+    font: bold 2em sans-serif;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #b55118;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+p{
+    font: 200 1em sans-serif;
+    color: #8222a8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font: 300 1.3em sans-serif;
+}
+
+/* Colour Palette */
+/*
+#eead2b = Bright orange
+#b55118 = Deep orange
+#d08411 = Medium orange
+#e7b6fa = Bright lilac
+#8222a8 = Dark purple
+#fff = White
+*/
+/*----------------*/
+
+header{
+    background-color: #e7b6fa;
+}
+
+.header-logo{
+    width: 12vw;
+    height: auto;
+    margin: 2vh 42vw;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 100%;
+    justify-content: center;
+}
+
+nav li{
+    margin: 2vh 2vw;
+}
+
+.banner-container{
+    width: 100%;
+    height: auto;
+}
+
+.banner{
+    border-top: #d08411 solid 5px;
+    border-bottom: #fff solid 5px;
+}
+
+.banner-heading{
+    position: absolute;
+    left: 8vw;
+    top: 36vh;
+}
+
+.banner-conditions{
+    color: #fff;
+    position: absolute;
+    left: 8vw;
+    top: 46vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eead2b;
+    width: 100%;
+}
+
+.banner{
+    height: 20%;
+    width: 100%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5vh 10vw 7vh;
+    width: 80%;
+}
+
+.card{
+    background-color: #fff;
+    border: #d08411 solid 0.5em;
+    border-radius: 5%;
+    margin: 2vh 2vw;
+    padding: 1.5vh 2vw 2.5vh;
+    width: 20vw;
+    height: auto;
+}
+
+.card-img{
+    width: 90%;
+    height: auto;
+    padding: 2vh 1vw;
+}
+
+.card a{
+    color: #b55118;
+}
+
+footer{
+    background-color: #e7b6fa;
+    display: flex;
+    flex-direction: row;
+}
+
+.column-one{
+    width: 50%;
+}
+
+.column-two{
+    width: 50%;
+}
+
+.copyright-info{
+    padding: 7.3vh 0 0 25vw;
+}
+
+.footer-logo{
+    width: 5vw;
+    height: auto;
+    padding: 5vh 5vw;
+}
